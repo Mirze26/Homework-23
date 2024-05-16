@@ -24,15 +24,13 @@ function isPalindrome(str) {
         if (str[i] == str[text]) {
             return true;
         }
-        else if(text[i] == str[i].toUpperCase){
-            return true;
-        }
+       
         text ++;
     }
     return false;
 }
 
-let word = "Ata";
+let word = "ada";
 console.log(isPalindrome(word));
 
 //----------------------------------------------------------------
